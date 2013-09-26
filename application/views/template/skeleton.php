@@ -12,9 +12,10 @@
 <meta name="keywords" content="<?php echo $keywords ?>" />
 <meta name="author" content="<?php echo $author ?>" />
 
-<link rel="stylesheet" href="<?php echo base_url(CSS."global.css");?>">
+
 <link rel="stylesheet" href="<?php echo base_url(CSS."component.css");?>">
 <link rel="stylesheet" href="<?php echo base_url(CSS."bootstrap.css");?>">
+<link rel="stylesheet" href="<?php echo base_url(CSS."global.css");?>">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 <!-- extra CSS-->

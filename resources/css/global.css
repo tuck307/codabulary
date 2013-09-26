@@ -267,3 +267,8 @@ white-space: normal;
         font-style:italic;
         color:#999;
     } 
+
+/*override since this was causing a shift in the header when modal was open*/
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+margin-right: 0px;
+}

@@ -2,7 +2,7 @@
       <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-12">
-            <h1>Codabulary</h1>
+            <h1 style='margin-top:40px;'>Codabulary</h1>
            <blockquote>
             <p>A collection of programming terminology definitions</p>
           </blockquote>
@@ -16,6 +16,7 @@
             
         </div>
       </div>
+
 
 
 

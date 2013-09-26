@@ -10,7 +10,8 @@
  */
 (function() {
 
-
+if($('.cbp-vm-options').length !== 0){
+    
 	var container = document.getElementById( 'cbp-vm' ), 
         data_view = "cbp-vm-view-grid",
 		optionSwitch = Array.prototype.slice.call( container.querySelectorAll( 'div.cbp-vm-options > span a' ) );
@@ -47,5 +48,6 @@
 	}
 
 	init();
+}
 
 })();
